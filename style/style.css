@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    box-shadow: 3px 3px 3px #ecebeb;
+    z-index: 2;
+}
+
+#color-flipper {
+    color: rgb(32, 153, 209);
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#color-flipper button,#simple button, #hex button{
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+#color-flipper button:hover{
+    color: red;
+}
+
+#simple button:hover{
+    color: red;
+}
+
+#hex button:hover{
+  color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    min-height: 200px;
+    width: auto;
+}
+
+#button-click-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    background: rgb(32, 32, 32);
+    color: black;
+    width: 120px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#background-color {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-indent: 25px;
+    font-size: 32px;
+    height: auto;
+    background: rgb(32, 32, 32);
+    color: white;
+    width: auto;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 14px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#color-text{
+    margin-right: 25px;
+}
